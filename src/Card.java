@@ -1,7 +1,7 @@
 public class Card {
     private String suit;
     private int rank;
-    private String test;
+    private String t;
 
 
     public Card()
