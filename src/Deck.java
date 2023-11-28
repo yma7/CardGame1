@@ -14,6 +14,7 @@ public class Deck {
             }
         }
     }
+
     public boolean isEmpty()
     {
         return cardsLeft == 0;
