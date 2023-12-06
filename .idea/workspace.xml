@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bb8c76-3920-4a77-a105-ba2d1bccc1fd" name="Changes" comment="Added instance variables suit and rank.">
+    <list default="true" id="b7bb8c76-3920-4a77-a105-ba2d1bccc1fd" name="Changes" comment="Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Deck.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YlijOr3edG6vm9pm2zeNss8cV0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "/Users/yuanyema/IdeaProjects/CardGame/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/yuanyema/IdeaProjects/CardGame/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -98,11 +102,40 @@
       <option name="project" value="LOCAL" />
       <updated>1701107428104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added instance variables suit and rank.&#10;Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods.">
+      <option name="closed" value="true" />
+      <created>1701149525806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701149525806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods.">
+      <option name="closed" value="true" />
+      <created>1701149639584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701149639584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added instance variables suit and rank." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added instance variables suit and rank." />
+    <MESSAGE value="Added instance variables suit and rank.&#10;Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods." />
+    <MESSAGE value="Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods." />
   </component>
 </project>
