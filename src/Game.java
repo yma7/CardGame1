@@ -70,8 +70,8 @@ public class Game {
     //checks to see if game is over
     public boolean isGameOver()
     {
-        //game is over when the players hand is empty or when the pile is greater than the size of a deck of cards
-        return p.getHand().isEmpty() || pile.size() > 52;
+        //game is over when the players hand is empty or when hand is greater than the size of a deck of cards
+        return p.getHand().isEmpty() || p.getHand().size() > 52;
     }
 
     //prints instructions
