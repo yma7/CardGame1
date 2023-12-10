@@ -86,19 +86,23 @@ public class Game
         System.out.print("You can only place a card that's value is either 1+ or 1- the pile card\n");
         System.out.print("For example if the pile card is 9, you can place either a 8 or 10, but not a 11");
         System.out.print("Your final score will be based off how many moves you use.\n");
-        System.out.print("Enjoy!");
+        System.out.print("Enjoy!\n");
     }
     //plays a turn
-    private void playTurn()
-    {
+    private void playTurn() {
         //prompts user to enter a index of their hand
-        System.out.println("Enter the index of the card you want to play:");
+        System.out.println("Enter the index of the card you want to play or -1 if you don't have any valid cards:");
         //scanner
         Scanner scanner = new Scanner(System.in);
         //gets the number
         int cardIndex = scanner.nextInt();
+        //returns nothing if user does not have any valid cards
+        if (cardIndex == -1)
+        {
+            System.out.print("");
+        }
         //checks to see if the index is not out of bounds
-        if (cardIndex >= 0 && cardIndex < p.getHand().size())
+        else if (cardIndex >= 0 && cardIndex < p.getHand().size())
         {
             //gets the card from that index
             Card s = p.getHand().get(cardIndex);
@@ -144,10 +148,8 @@ public class Game
     //starts game
     public static void main(String[] args)
     {
-
         Player player = new Player("Kavan");
         Game game = new Game(player);
         game.playGame();
-
     }
 }
