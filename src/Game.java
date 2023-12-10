@@ -93,7 +93,6 @@ public class Game
     {
         //prompts user to enter a index of their hand
         System.out.println("Enter the index of the card you want to play:");
-        System.out.println("Enter a letter if you don't have any cards that work");
         //scanner
         Scanner scanner = new Scanner(System.in);
         //gets the number
