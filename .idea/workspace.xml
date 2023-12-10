@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bb8c76-3920-4a77-a105-ba2d1bccc1fd" name="Changes" comment="Finished Card Deck and Player classes&#10;&#10;Started with game logic">
+    <list default="true" id="b7bb8c76-3920-4a77-a105-ba2d1bccc1fd" name="Changes" comment="Finished Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701885247125</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished Game">
+      <option name="closed" value="true" />
+      <created>1702099373643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702099373643</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finished Game">
+      <option name="closed" value="true" />
+      <created>1702101118827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702101118827</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished Game">
+      <option name="closed" value="true" />
+      <created>1702251095183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702251095183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +166,7 @@
     <MESSAGE value="Added instance variables suit and rank.&#10;Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods." />
     <MESSAGE value="Added constructor, gettersm and setters for the card class.&#10;Added new classes Deck Player and game.&#10;In Deck Class added constructor, isEmpty and deal methods." />
     <MESSAGE value="Finished Card Deck and Player classes&#10;&#10;Started with game logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Card Deck and Player classes&#10;&#10;Started with game logic" />
+    <MESSAGE value="Finished Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Game" />
   </component>
 </project>

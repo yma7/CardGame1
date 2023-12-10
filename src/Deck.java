@@ -38,7 +38,7 @@ public class Deck
         return cardsLeft;
     }
     //deals the cards
-    public Card deal(int j)
+    public Card deal()
     {
         if (cards.isEmpty())
         {
@@ -46,8 +46,6 @@ public class Deck
         }
         cardsLeft--;
         return cards.get(cardsLeft + 1);
-
-
     }
     //shuffle the cards
     public void shuffle() {
