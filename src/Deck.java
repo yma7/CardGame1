@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class Deck {
+public class Deck
+{
     //declares and intializes variables
     private ArrayList<Card> cards;
     private int cardsLeft = 0;
@@ -44,7 +45,6 @@ public class Deck {
             return null;
         }
         cardsLeft--;
-
         return cards.get(cardsLeft + 1);
 
 
@@ -54,7 +54,8 @@ public class Deck {
         //creates a holder
         Card temp;
         //iterates through the cards
-        for (int i = cards.size() - 1; i > 0; i--) {
+        for (int i = cards.size() - 1; i > 0; i--)
+        {
             //random int between the cards
             int r = (int)(Math.random() * (i + 1));
             //swaps the 2 cards

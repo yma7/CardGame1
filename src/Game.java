@@ -1,7 +1,8 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Game {
+public class Game
+{
     //variable declaration + initialization
     public static int tries = 0;
     private Player p;
@@ -23,9 +24,11 @@ public class Game {
         initializeGame();
     }
     //initializes the game
-    public void initializeGame() {
+    public void initializeGame()
+    {
         // deals 3 cards
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++)
+        {
             //shuffles the deck first
             deck.shuffle();
             //deals cards
@@ -41,7 +44,8 @@ public class Game {
         //prints instructions
         printInstructions();
         //repeats until player finishes
-        while (isGameOver() == false) {
+        while (isGameOver() == false)
+        {
             //initializes the scanner
             Scanner scanner = new Scanner(System.in);
             //prints out general info
@@ -100,7 +104,8 @@ public class Game {
             //gets the card from that index
             Card s = p.getHand().get(cardIndex);
             //checks if it is +1` or 1- the top of pile
-            if (check(s)) {
+            if (check(s))
+            {
                 //adds the new number to pile
                 pile.add(s);
                 //removes it from the players hand
@@ -138,7 +143,8 @@ public class Game {
 
 
     //starts game
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         Player player = new Player("Kavan");
         Game game = new Game(player);

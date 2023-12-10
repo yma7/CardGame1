@@ -1,4 +1,5 @@
-public class Card {
+public class Card
+{
     //variable declaration
     private String suit;
     private String rank;

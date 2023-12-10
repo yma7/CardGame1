@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-public class Player {
+public class Player
+{
     //variable declaration
     private String name;
     private ArrayList<Card> hand;
@@ -28,6 +29,7 @@ public class Player {
     //gets the points
     public int getPoints()
     {
+
         return points;
     }
     //add points to the user
