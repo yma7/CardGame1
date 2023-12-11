@@ -29,7 +29,6 @@ public class Player
     //gets the points
     public int getPoints()
     {
-
         return points;
     }
     //add points to the user

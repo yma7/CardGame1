@@ -85,7 +85,7 @@ public class Game
         //prints rules and game basics
         System.out.println("Welcome to Speed. In this game try to use all of your cards in the lowest moves");
         System.out.print("You can only place a card that's value is either 1+ or 1- the pile card\n");
-        System.out.print("For example if the pile card is 9, you can place either a 8 or 10, but not a 11");
+        System.out.print("For example if the pile card is 9, you can place either a 8 or 10, but not a 11\n");
         System.out.print("Your final score will be based off how many moves you use.\n");
         System.out.print("Enjoy!\n");
     }
