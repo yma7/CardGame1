@@ -27,11 +27,11 @@ public class Game
     //initializes the game
     public void initializeGame()
     {
+        //shuffles the deck first
+        deck.shuffle();
         // deals 3 cards
         for (int i = 0; i < 3; i++)
         {
-            //shuffles the deck first
-            deck.shuffle();
             //deals cards
             p.addCard(deck.getCard());
         }
@@ -45,7 +45,7 @@ public class Game
         //prints instructions
         printInstructions();
         //repeats until player finishes
-        while (isGameOver() == false)
+        while (!isGameOver())
         {
             //initializes the scanner
             Scanner scanner = new Scanner(System.in);
@@ -75,11 +75,12 @@ public class Game
     //checks to see if game is over
     public boolean isGameOver()
     {
-        //game is over when the players hand is empty or when hand is greater than the size of a deck of cards
-        return p.getHand().isEmpty() || p.getHand().size() > 52;
+        //game is over when the players hand is empty or when hand has all off deck
+        return p.getHand().isEmpty() || p.getHand().size() > 52 || deck.isEmpty();
     }
 
     //prints instructions
+    //static because it is the same for all players
     public static void printInstructions()
     {
         //prints rules and game basics
@@ -116,15 +117,14 @@ public class Game
                 p.remove(s);
             }
             //else if it doesnt work
-            else if (!check(s))
-            {
+            else if (!check(s)) {
                 //print error message
                 System.out.println("The card must be +1 or 1- from the pile");
             }
-            else
-            {
-                System.out.println("Index out of bounds. Please choose a index from your hand.");
-            }
+        }
+        else
+        {
+            System.out.println("Index out of bounds. Please choose a index from your hand.");
         }
     }
 
@@ -149,7 +149,11 @@ public class Game
     //starts game
     public static void main(String[] args)
     {
-        Player player = new Player("Kavan");
+        //gets player's name
+        Scanner d = new Scanner(System.in);
+        System.out.println("What is your name: ");
+        String name = d.nextLine();
+        Player player = new Player(name);
         Game game = new Game(player);
         game.playGame();
     }
